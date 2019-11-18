@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <script src="https://cdn.syncfusion.com/ej2/17.3.9-beta/dist/ej2.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.42/polyfill.min.js"></script>
+    <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="stackblitz-container material">
+        <div class="control-section">
+            <div class="content-wrapper">
+                <div id="Gantt">
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var GanttData = [
+                {
+                    TaskID: 1,
+                    TaskName: 'Project Initiation',
+                    StartDate: new Date('04/02/2019'),
+                    EndDate: new Date('04/21/2019'),
+                    subtasks: [
+                        { TaskID: 2, TaskName: 'Identify Site location', StartDate: new Date('04/02/2019'), Duration: 4, Progress: 50 },
+                        { TaskID: 3, TaskName: 'Perform Soil test', StartDate: new Date('04/02/2019'), Duration: 4, Progress: 50 },
+                        { TaskID: 4, TaskName: 'Soil test approval', StartDate: new Date('04/02/2019'), Duration: 4, Progress: 50 },
+                    ]
+                },
+                {
+                    TaskID: 5,
+                    TaskName: 'Project Estimation',
+                    StartDate: new Date('04/02/2019'),
+                    EndDate: new Date('04/21/2019'),
+                    subtasks: [
+                        { TaskID: 6, TaskName: 'Develop floor plan for estimation', StartDate: new Date('04/04/2019'), Duration: 3, Progress: 50 },
+                        { TaskID: 7, TaskName: 'List materials', StartDate: new Date('04/04/2019'), Duration: 3, Progress: 50 },
+                        { TaskID: 8, TaskName: 'Estimation approval', StartDate: new Date('04/04/2019'), Duration: 3, Progress: 50 }
+                    ]
+                },
+            ];
+
+            var ganttChart = new ej.gantt.Gantt({
+                dataSource: GanttData,
+                height: '450px',
+                taskFields: {
+                    id: 'TaskID',
+                    name: 'TaskName',
+                    startDate: 'StartDate',
+                    duration: 'Duration',
+                    progress: 'Progress',
+                    child: 'subtasks'
+                },
+                labelSettings: {
+                    leftLabel: 'TaskName'
+                },
+                highlightWeekends: true,
+                projectStartDate: new Date('03/24/2019'),
+                projectEndDate: new Date('04/21/2019')
+            });
+            ganttChart.appendTo('#Gantt');
+        </script>
+    </div>
+</body>
+
+</html>
