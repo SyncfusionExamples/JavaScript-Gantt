@@ -358,3 +358,4 @@ This guide demonstrates how to:
 4. Handle events for instant updates without refreshes. 
 
 The application now provides a collaborative project management tool. Experiment with adding database persistence (e.g., using Entity Framework) or advanced features like user-specific updates. For more, refer to Syncfusion documentation. 
+
