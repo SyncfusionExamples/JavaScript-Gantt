@@ -346,7 +346,7 @@ Access at http://localhost:4200.
 
 **Complete Sample Repository** D:\dev latest\JavaScript-Gantt\GanttIntegration\AngularGantt\GanttAngularSignalR\signalR
 
-Refer to the [client sample](https://github.com/SyncfusionExamples/JavaScript-Gantt/GanttIntegration/AngularGantt/GanttAngularSignalR/client) and [server sample](https://github.com/SyncfusionExamples/JavaScript-Gantt/GanttIntegration/AngularGantt/GanttAngularSignalR/Server) for more details.
+Refer to the [client sample](https://github.com/SyncfusionExamples/JavaScript-Gantt/GanttIntegration/AngularGantt/GanttAngularSignalR/Client) and [server sample](https://github.com/SyncfusionExamples/JavaScript-Gantt/GanttIntegration/AngularGantt/GanttAngularSignalR/Server) for more details.
 
 ## Summary 
 
