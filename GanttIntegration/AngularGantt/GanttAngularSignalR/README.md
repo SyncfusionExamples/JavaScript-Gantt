@@ -344,7 +344,7 @@ Access at http://localhost:4200.
 - In Tab 1, add/edit/delete a task. 
 - Watch Tab 2 update instantly—no refresh needed!
 
-**Complete Sample Repository** D:\dev latest\JavaScript-Gantt\GanttIntegration\AngularGantt\GanttAngularSignalR\signalR
+**Complete Sample Repository**
 
 Refer to the [client sample](https://github.com/SyncfusionExamples/JavaScript-Gantt/GanttIntegration/AngularGantt/GanttAngularSignalR/Client) and [server sample](https://github.com/SyncfusionExamples/JavaScript-Gantt/GanttIntegration/AngularGantt/GanttAngularSignalR/Server) for more details.
 
